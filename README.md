@@ -2,10 +2,11 @@
 
 Makes it easier to generate all models by allowing a model class prefix.
 
+
 ## Features
 
-- Extends from Yii's core ModelGenerator.
 - Adds an option into the form for Class Prefix.
+- Extends from Yii's core ModelGenerator.
 - Defaults tablename to *, which will generate all models.
 
 
