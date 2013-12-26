@@ -19,7 +19,7 @@ Please download using ONE of the following methods:
 
 ```
 curl http://getcomposer.org/installer | php
-php composer.phar require mrphp/gii-prefix-generator
+php composer.phar require cornernote/gii-prefix-generator
 ```
 
 
@@ -38,7 +38,7 @@ return array(
 		'gii' => array(
 			'class'=>'system.gii.GiiModule',
 			'generatorPaths' => array(
-				'vendor.mrphp.gii-prefixmodel-generator',
+				'vendor.cornernote.gii-prefixmodel-generator',
 				//'ext.gii-prefixmodel-generator', // if you downloaded into ext
 			),
 		),
@@ -55,12 +55,12 @@ Visit `index.php?r=gii`, then choose PrefixModel from the menu.
 
 - Author: Brett O'Donnell <cornernote@gmail.com>
 - Source Code: https://github.com/cornernote/gii-prefixmodel-generator
-- Copyright © 2013 Mr PHP <info@mrphp.com.au>
+- Copyright Â© 2013 Mr PHP <info@mrphp.com.au>
 - License: BSD-3-Clause https://raw.github.com/cornernote/gii-prefixmodel-generator/master/LICENSE
 
 
 ## Links
 
 - [Yii Extension](http://www.yiiframework.com/extension/gii-prefixmodel-generator)
-- [Composer Package](https://packagist.org/packages/mrphp/gii-prefixmodel-generator)
+- [Composer Package](https://packagist.org/packages/cornernote/gii-prefixmodel-generator)
 - [MrPHP](http://mrphp.com.au)
