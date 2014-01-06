@@ -11,7 +11,7 @@
             "homepage": "http://mrphp.com.au/"
         }
     ],
-    "require": {
+    "require-dev": {
         "yiisoft/yii": "1.1.14"
     }
 }
